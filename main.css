@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    max-width: 1200px;
+    align-items: center;
+    background-color: #a80402;
+}
+
+.card {
+    float: left;
+    box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3); 
+    transition: 0.3s;
+    width: 380px;
+    border-radius: 5px;
+    /*text-align: center;*/
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .nombre{
+    color: #a80402;
+    margin: 10px 0;
+  }
+  body {
+   /* margin: auto;
+    width: 380px; 
+    padding: 50px;*/
+    font-family: 'Arial', sans-serif; 
+    color: #33475b;  
+    /*text-align: center;*/
+  }
+
