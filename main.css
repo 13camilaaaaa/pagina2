@@ -1,42 +1,89 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.Container{
+body{
+   background-color:antiquewhite;
+
+}
+
+main{
+  background-color:darkgray;
+  margin: 80px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.container{
     max-width: 1200px;
-    align-items: center;
-    background-color: #a80402;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
-.card {
-    float: left;
-    box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3); 
-    transition: 0.3s;
-    width: 380px;
-    border-radius: 5px;
-    /*text-align: center;*/
-  }
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  img {
-    border-radius: 5px 5px 0 0;
-  }
-  .container {
-    padding: 2px 16px;
-  }
-  .nombre{
-    color: #a80402;
-    margin: 10px 0;
-  }
-  body {
-   /* margin: auto;
-    width: 380px; 
-    padding: 50px;*/
-    font-family: 'Arial', sans-serif; 
-    color: #33475b;  
-    /*text-align: center;*/
-  }
+.card{
+  width: 320px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  transition: all 400ms ease;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 0.5px #cbc3c3;
+  display: inline-block;
+  vertical-align: 100px;
+  border-radius: 20px;
+  cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+
+.card img {
+    display: block;
+  max-height: 280px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 0px 4px #515151);
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
 
