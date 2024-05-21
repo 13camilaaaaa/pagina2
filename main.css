@@ -5,12 +5,12 @@
 }
 
 body{
-   background-color:antiquewhite;
+   background-color:rgb(101, 110, 139);
 
 }
 
 main{
-  background-color:darkgray;
+  background-color:rgb(172, 195, 201);
   margin: 80px;
   padding: 20px;
   border: 1px solid;
@@ -86,4 +86,357 @@ main{
     color: red;
     font-size: 30px;
 }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+   background-color:rgb(101, 110, 139);
+
+}
+
+main{
+  background-color:rgb(172, 195, 201);
+  margin: 80px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.container{
+    max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.card{
+  width: 320px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  transition: all 400ms ease;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 0.5px #cbc3c3;
+  display: inline-block;
+  vertical-align: 100px;
+  border-radius: 20px;
+  cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+
+.card img {
+    display: block;
+  max-height: 280px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 0px 4px #515151);
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+   background-color:rgb(101, 110, 139);
+
+}
+
+main{
+  background-color:rgb(172, 195, 201);
+  margin: 80px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.container{
+    max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.card{
+  width: 320px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  transition: all 400ms ease;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 0.5px #cbc3c3;
+  display: inline-block;
+  vertical-align: 100px;
+  border-radius: 20px;
+  cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+
+.card img {
+    display: block;
+  max-height: 280px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 0px 4px #515151);
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+   background-color:rgb(101, 110, 139);
+
+}
+
+main{
+  background-color:rgb(172, 195, 201);
+  margin: 80px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.container{
+    max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.card{
+  width: 320px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  transition: all 400ms ease;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 0.5px #cbc3c3;
+  display: inline-block;
+  vertical-align: 100px;
+  border-radius: 20px;
+  cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+
+.card img {
+    display: block;
+  max-height: 280px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 0px 4px #515151);
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+   background-color:rgb(101, 110, 139);
+
+}
+
+main{
+  background-color:rgb(172, 195, 201);
+  margin: 80px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.container{
+    max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.card{
+  width: 320px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  transition: all 400ms ease;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 0.5px #cbc3c3;
+  display: inline-block;
+  vertical-align: 100px;
+  border-radius: 20px;
+  cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+
+.card img {
+    display: block;
+  max-height: 280px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 0px 4px #515151);
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 30px;
+}
+
 
